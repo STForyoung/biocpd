@@ -1,0 +1,21 @@
+[project]
+name = "biocpd"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Steve Foryoung",email = "sforyoung@gatech.edu"}, 
+    {name = "Nikita Angarski",email = "nangarski3@gatech.edu"},
+    {name = "Arthur Porto",email = "arthur.porto@ufl.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "biocpd", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
